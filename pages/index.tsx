@@ -99,7 +99,7 @@ const IndexPage = () => (
       </div>
 
       <div id="methodology" className="bg-white lg:h-screen flex z-0 flex-col pt-6">
-        <div className="w-full h-10 flex items-center justify-center" style={{backgroundColor: "rgb(140, 172, 204)"}}>
+        <div className="w-full h-10 flex items-center justify-center p-12" style={{backgroundColor: "rgb(140, 172, 204)"}}>
           <span className="text-white text-2xl font-semibold">
             NUESTRA METODOLOGÍA
           </span>
@@ -152,7 +152,7 @@ const IndexPage = () => (
       </div>
 
       <div id="contact" className="min-h-screen flex z-0 flex-col pt-6 lg:h-screen" style={{backgroundColor: "rgb(36, 52, 84)", backgroundImage: "url(/assets/keyboard.webp)", boxShadow: "-2px 0px 10px rgba(50, 50, 50, 1)"}}>
-        <div className="w-full h-8 mt-16 flex items-center justify-center bg-white">
+        <div className="w-full h-8 mt-16 flex items-center justify-center bg-white py-10">
           <span className="text-2xl font-semibold">
             TRABAJEMOS JUNTOS
           </span>

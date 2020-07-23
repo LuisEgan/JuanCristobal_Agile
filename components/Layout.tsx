@@ -16,7 +16,7 @@ const Layout = ({ children, title = 'This is the default title' }: Props) => (
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
     </Head>
     <header className="z-10 fixed w-full" style={{backgroundColor: "rgb(33, 47, 76)"}}>
-      <nav className="text-white flex items-center justify-start md:text-xl">
+      <nav className="text-white flex items-center justify-start md:text-xl py-5">
       <Link
         activeClass="active"
         to="home"
