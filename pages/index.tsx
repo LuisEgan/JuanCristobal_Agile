@@ -1,12 +1,23 @@
 import Layout from '../components/Layout'
 import SpanishIndex from './es'
 import EnglishIndex from './en'
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from 'react-scroll'
 
 const IndexPage = () => {
 
-  const [english, setEnglish] = useState(false);
+  // const [english, setEnglish] = useState(false);
+  const [english, setEnglish] = useState(false)
+
+  useEffect(() => {
+    const lang = localStorage.getItem("lang");
+    updateLang(lang === "en")
+  });
+
+  const updateLang = (isEnglish: boolean) => {
+    localStorage.setItem("lang", isEnglish ? "en" : "es");  
+    setEnglish(isEnglish);
+  }
 
   return (
       <Layout title="The Legal Agile">
@@ -72,7 +83,7 @@ const IndexPage = () => {
         {english ? "Contact us" : "Contáctanos"}
       </Link>
       |
-    <span className="mx-1 md:mx-2 lg:mx-4 -mb-1 cursor-pointer" onClick={() => setEnglish(!english)}>{english ? "ES" : "EN"}</span>
+    <span className="mx-1 md:mx-2 lg:mx-4 -mb-1 cursor-pointer" onClick={() => updateLang(!english)}>{english ? "ES" : "EN"}</span>
       </nav>
     </div>
 
