@@ -16,7 +16,7 @@ const Layout = ({ children, title = 'This is the default title' }: Props) => (
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
     </Head>
     <header className="z-10 fixed w-full" style={{backgroundColor: "rgb(36, 52, 84)"}}>
-      <nav className="text-white flex items-center justify-start md:text-xl">
+      <nav className="text-white flex items-center justify-start p-1 md:text-xl lg:p-2">
       <Link
         activeClass="active"
         to="home"
@@ -58,7 +58,7 @@ const Layout = ({ children, title = 'This is the default title' }: Props) => (
         to="methodology"
         spy={true}
         smooth={true}
-        // offset={50}
+        offset={2}
         duration={800}
         className="mx-1 md:mx-2 lg:mx-4 cursor-pointer"
       >

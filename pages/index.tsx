@@ -72,9 +72,9 @@ const IndexPage = () => (
         </div>
       </div>
 
-      <div id="services" className="bg-white min-h-full lg:h-screen flex z-0 flex-col p-4 pt-6 lg:p-8 lg:pt-6" style={{boxShadow: "-2px 0px 10px rgba(50, 50, 50, 1)", minHeight: "800px"}}>
+      <div id="services" className="bg-white min-h-full lg:h-screen flex z-0 flex-col p-4 pt-8 lg:p-8" style={{boxShadow: "-2px 0px 10px rgba(50, 50, 50, 1)", minHeight: "800px"}}>
         <div className="w-full pt-4 text-2xl">
-          <span className="font-semibold">
+          <span className="font-semibold pl-8 lg:pl-16">
             SERVICIOS
             ÁGILES Y A MEDIDA
           </span>
@@ -110,8 +110,8 @@ const IndexPage = () => (
         </div>
       </div>
 
-      <div id="methodology" className="bg-white lg:h-screen flex z-0 flex-col pt-6" style={{minHeight: "600px"}}>
-        <div className="w-full h-10 flex items-center justify-center" style={{backgroundColor: "rgb(140, 172, 204)"}}>
+      <div id="methodology" className="bg-white lg:h-screen flex z-0 flex-col pt-8 lg:pt-12" style={{minHeight: "600px"}}>
+        <div className="w-full h-12 flex items-center justify-center" style={{backgroundColor: "rgb(140, 172, 204)"}}>
           <span className="text-white text-2xl font-semibold">
             NUESTRA METODOLOGÍA
           </span>
@@ -163,8 +163,8 @@ const IndexPage = () => (
         </div>
       </div>
 
-      <div id="contact" className="min-h-screen flex z-0 flex-col pt-6 lg:h-screen" style={{backgroundColor: "rgb(36, 52, 84)", backgroundImage: "url(/assets/keyboard.webp)", boxShadow: "-2px 0px 10px rgba(50, 50, 50, 1)", minHeight: "800px"}}>
-        <div className="w-full h-8 mt-16 flex items-center justify-center bg-white">
+      <div id="contact" className="min-h-screen flex z-0 flex-col pt-6 lg:h-screen" style={{backgroundColor: "rgb(36, 52, 84)", backgroundImage: "url(/assets/keyboard.webp)", boxShadow: "-2px 0px 10px rgba(50, 50, 50, 1)"}}>
+        <div className="w-full h-12 mt-16 flex items-center justify-center bg-white py-2">
           <span className="text-2xl font-semibold">
             TRABAJEMOS JUNTOS
           </span>
