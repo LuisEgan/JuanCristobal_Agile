@@ -2,10 +2,10 @@ import Layout from '../components/Layout'
 
 const SpanishIndex = () => (
     <Layout title="The Legal Agile">
-      <div id="home" style={{backgroundColor: "rgb(140, 172, 204)", minHeight: "800px"}} className="h-screen flex z-0 pt-7 flex-col">
+      <div id="home" style={{backgroundColor: "rgb(140, 172, 204)", minHeight: "800px"}} className="h-screen flex z-0 pt-7 flex-col overflowhidden">
         <div style={{height: "90%"}} className="flex">
           <div className="w-full flex flex-col items-center justify-center lg:w-1/2">
-            <img src='/assets/TLALogoBlanco.webp' className="mr-8 mb-8 md:mr-12 md:mb-12 lg:mr-16 lg:mb-16"></img>
+            <img src='/assets/TLALogoBlanco.webp' className="mr-8 mb-8 md:mr-12 md:mb-12 lg:mr-16 lg:mb-16 mt-4 lg:mt-8"></img>
             <span className="text-5xl text-white font-bold">
               Agilidad. <br/>
               Transparencia. <br/>
@@ -21,7 +21,7 @@ const SpanishIndex = () => (
         </div>
       </div>
 
-      <div id="about" style={{backgroundColor: "rgb(36, 52, 84)", boxShadow: "-2px 0px 10px rgba(50, 50, 50, 1)", minHeight: "800px"}} className="min-h-screen flex z-0 flex-col lg:flex-row p-8 -mt-20">
+      <div id="about" style={{backgroundColor: "rgb(36, 52, 84)", boxShadow: "-2px 0px 10px rgba(50, 50, 50, 1)", minHeight: "800px"}} className="overflowhidden min-h-screen flex z-0 flex-col lg:flex-row p-8 -mt-20">
         <div className="min-h-full lg:min-h-screen w-full flex items-center justify-center lg:w-1/2 p-8 pb-12">
           <div>
             <div className="bg-white w-1/3 ml-8 h-2"></div>
@@ -72,7 +72,7 @@ const SpanishIndex = () => (
         </div>
       </div>
 
-      <div id="services" className="bg-white min-h-full lg:h-screen flex z-0 flex-col p-4 pt-8 lg:p-8" style={{boxShadow: "-2px 0px 10px rgba(50, 50, 50, 1)", minHeight: "800px"}}>
+      <div id="services" className="bg-white min-h-full lg:h-screen flex z-0 flex-col p-4 pt-8 lg:p-8 overflowhidden" style={{boxShadow: "-2px 0px 10px rgba(50, 50, 50, 1)", minHeight: "800px"}}>
         <div className="w-full pt-4 text-2xl ml-8 lg:ml-16">
           <span className="font-semibold text-left">
             SERVICIOS <br/>
@@ -110,7 +110,7 @@ const SpanishIndex = () => (
         </div>
       </div>
 
-      <div id="methodology" className="bg-white lg:h-screen flex z-0 flex-col pt-8 lg:pt-12" style={{minHeight: "600px"}}>
+      <div id="methodology" className="bg-white lg:h-screen flex z-0 flex-col pt-8 lg:pt-12 overflow-hidden" style={{minHeight: "700px"}}>
         <div className="w-full h-12 flex items-center justify-center" style={{backgroundColor: "rgb(140, 172, 204)"}}>
           <span className="text-white text-2xl font-semibold">
             NUESTRA METODOLOGÍA
@@ -163,7 +163,7 @@ const SpanishIndex = () => (
         </div>
       </div>
 
-      <div id="contact" className="min-h-screen flex z-0 flex-col pt-6 lg:h-screen" style={{backgroundColor: "rgb(36, 52, 84)", backgroundImage: "url(/assets/keyboard.webp)", boxShadow: "-2px 0px 10px rgba(50, 50, 50, 1)"}}>
+      <div id="contact" className="min-h-screen flex z-0 flex-col pt-6 lg:h-screen overflow-hidden" style={{backgroundColor: "rgb(36, 52, 84)", backgroundImage: "url(/assets/keyboard.webp)", boxShadow: "-2px 0px 10px rgba(50, 50, 50, 1)"}}>
         <div className="w-full h-12 mt-16 flex items-center justify-center bg-white py-2">
           <span className="text-2xl font-semibold">
             TRABAJEMOS JUNTOS
