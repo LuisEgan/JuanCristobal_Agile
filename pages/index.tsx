@@ -4,6 +4,7 @@ import EnglishIndex from './en'
 import React, { useState, useEffect } from "react";
 import { Link } from 'react-scroll'
 import { Menu, Dropdown } from 'antd';
+import { MenuOutlined } from '@ant-design/icons';
 
 const IndexPage = () => {
 
@@ -207,10 +208,11 @@ const IndexPage = () => {
       </nav>
       <div className="block md:hidden h-7">
         <Dropdown overlay={menu} trigger={['click']} onVisibleChange={handleVisibleChange} visible={visible}>
-          <a className="ant-dropdown-link p-2 mx-1 md:mx-2 lg:mx-4 cursor-pointer text-white overflow-hidden text-lg" onClick={e => e.preventDefault()}>
-            <span className="text-white">
-              {english ? "Menu" : "Menú"}
-            </span> 
+          <a className="ant-dropdown-link mx-1 md:mx-2 lg:mx-4 cursor-pointer text-white overflow-hidden text-lg p-1 flex items-center" onClick={e => e.preventDefault()}>
+            <span className="text-white mr-1">
+              {english ? "Menu" : "Menú"} 
+            </span>
+            <MenuOutlined className="text-white" style={{marginTop: "2px", color: "white"}}/>
           </a>
         </Dropdown>
       </div>
