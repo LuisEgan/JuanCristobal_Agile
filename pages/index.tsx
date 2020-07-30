@@ -48,7 +48,7 @@ const IndexPage = () => {
               duration={800}
             >
               <div className="w-full" onClick={handleMenuClick}>
-                <span>
+                <span className="text-lg">
                   {english ? "Home" : "Inicio"}
                 </span>
               </div>
@@ -65,7 +65,7 @@ const IndexPage = () => {
               className="mx-1 md:mx-2 lg:mx-4 cursor-pointer"
             >
               <div className="w-full" onClick={handleMenuClick}>
-                <span>
+                <span className="text-lg">
                   {english ? "About us" : "Nosotros"}
                 </span> 
               </div>
@@ -82,7 +82,7 @@ const IndexPage = () => {
               className="mx-1 md:mx-2 lg:mx-4 cursor-pointer"
             >
               <div className="w-full" onClick={handleMenuClick}>
-                <span>
+                <span className="text-lg">
                   {english ? "Services" : "Servicios"}
                 </span>
               </div>
@@ -99,7 +99,7 @@ const IndexPage = () => {
               className="mx-1 md:mx-2 lg:mx-4 cursor-pointer"
             >
               <div className="w-full" onClick={handleMenuClick}>
-                <span>
+                <span className="text-lg">
                   {english ? "Methodology" : "Metodología"}
                 </span>
               </div>
@@ -116,7 +116,7 @@ const IndexPage = () => {
               className="mx-1 md:mx-2 lg:mx-4 cursor-pointer"
             >
               <div className="w-full" onClick={handleMenuClick}>
-                <span>
+                <span className="text-lg">
                   {english ? "Contact us" : "Contáctanos"}
                 </span>
               </div>
@@ -124,7 +124,7 @@ const IndexPage = () => {
         </Menu.Item>
         <Menu.Item>
           <div className="w-full" onClick={changeLang}>
-            <span className="mx-1 md:mx-2 lg:mx-4 -mb-1 cursor-pointer">{english ? "ES" : "EN"}</span>
+            <span className="md:mx-2 lg:mx-4 -mb-1 cursor-pointer text-lg">{english ? "ES" : "EN"}</span>
           </div>
           
         </Menu.Item>
@@ -208,8 +208,8 @@ const IndexPage = () => {
       </nav>
       <div className="block md:hidden h-7">
         <Dropdown overlay={menu} trigger={['click']} onVisibleChange={handleVisibleChange} visible={visible}>
-          <a className="ant-dropdown-link mx-1 md:mx-2 lg:mx-4 cursor-pointer text-white overflow-hidden text-lg p-1 flex items-center" onClick={e => e.preventDefault()}>
-            <span className="text-white mr-1">
+          <a className="ant-dropdown-link mx-1 md:mx-2 lg:mx-4 cursor-pointer text-white overflow-hidden text-2xl p-1 flex items-center" onClick={e => e.preventDefault()}>
+            <span className="text-white mr-2">
               {english ? "Menu" : "Menú"} 
             </span>
             <MenuOutlined className="text-white" style={{marginTop: "2px", color: "white"}}/>

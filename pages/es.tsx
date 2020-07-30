@@ -116,7 +116,7 @@ const SpanishIndex = () => (
         </div>
       </div>
 
-      <div id="methodology" className="bg-white lg:h-screen flex z-0 flex-col pt-8 lg:pt-12 overflow-hidden" style={{minHeight: "700px"}}>
+      <div id="methodology" className="bg-white lg:h-screen flex z-0 flex-col pt-12 overflow-hidden" style={{minHeight: "700px"}}>
         <div className="w-full h-12 flex items-center justify-center" style={{backgroundColor: "rgb(140, 172, 204)"}}>
           <span className="text-white text-lg md:text-2xl lg:text-3xl font-semibold">
             NUESTRA METODOLOGÍA
