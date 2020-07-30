@@ -5,8 +5,8 @@ const EnglishIndex = () => (
       <div id="home" style={{backgroundColor: "rgb(140, 172, 204)", minHeight: "800px"}} className="h-screen flex z-0 pt-7 flex-col overflow-hidden">
         <div style={{height: "90%"}} className="flex">
           <div className="w-full flex flex-col items-center justify-center lg:w-1/2">
-            <img src='/assets/TLALogoBlanco.webp' className="mr-8 mb-8 md:mr-12 md:mb-12 lg:mr-16 lg:mb-16 mt-4 lg:mt-8"></img>
-            <span className="text-5xl text-white font-bold">
+            <img src='/assets/TLALogoBlanco.webp' className="w-11/12 xs:w-auto m-4 sm:m-8 lg:m-16"></img>
+            <span className="text-3xl xs:text-4xl md:text-5xl text-white font-bold">
               Agility. <br/>
               Transparency. <br/>
               Results.
@@ -58,10 +58,12 @@ const EnglishIndex = () => (
           </span>
           <br/>
           <span className="text-white">
-            Master of Laws, Loyola University Chicago. Lawyer, Universidad Alberto Hurtado. Diploma in Intellectual and Industrial Property Law, Pontificia Universidad Católica de Chile.          </span>
+            Master of Laws, Loyola University Chicago. Lawyer, Universidad Alberto Hurtado. Diploma in Intellectual and Industrial Property Law, Pontificia Universidad Católica de Chile.
+          </span>
           <br/>
           <span className="text-white">
-            Experience as Head of Digital Government in the Chilean Ministry General Secretariat of the Presidency, as Counselor at CORFO's Strategic Industries Program and as Member of the Board at the Latin America and the Caribbean Electronic Government Network.          </span>
+            Experience as Head of Digital Government in the Chilean Ministry General Secretariat of the Presidency, as Counselor at CORFO's Strategic Industries Program and as Member of the Board at the Latin America and the Caribbean Electronic Government Network.
+          </span>
           <br/>
           <br/>
           <span className="text-white underline">
@@ -71,29 +73,33 @@ const EnglishIndex = () => (
       </div>
 
       <div id="services" className="bg-white min-h-full lg:h-screen flex z-0 flex-col p-4 pt-8 lg:p-8 overflowhidden" style={{boxShadow: "-2px 0px 10px rgba(50, 50, 50, 1)", minHeight: "800px"}}>
-        <div className="w-full pt-4 text-2xl ml-8 lg:ml-16">
-          <span className="font-semibold text-left">
+      <div className="w-full mb-8 md:mb-0 p-0 xs:p-4 md:p-8 lg:p-16">
+          <span className="font-semibold text-left text-lg md:text-2xl lg:text-3xl">
             AGILE AND TAILORED <br/>
             LEGAL SERVICES
           </span>
         </div>
         <div className="h-full flex z-0 flex-col lg:flex-row">
-          <div className="h-full w-ful mt-8 lg:mt-20 flex flex-col items-center lg:flex lg:w-1/2 p-8 lg:p-16">
+        <div className="h-full w-ful flex flex-col items-center lg:flex lg:w-1/2 p-0 xs:p-4 md:p-8 lg:p-16">
           <img src='/assets/legalcompliance2.webp' className=""></img>
             <a href="https://f6a8b3ba-531b-490b-991f-49e67bed964d.filesusr.com/ugd/704d50_d7a810c4af1e4636b88bc8abccd776f5.pdf" target="_blank" className="w-full">
               <button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded w-full my-8">
-                Download brochure (ES)
+                <span className="text-xs xs:text-base lg:text-lg">
+                  Download brochure (ES)
+                </span> 
               </button>
             </a>  
             <span className="text-black">
               CORPORATE LEGAL COMPLIANCE is the group's legal area that provides personalized counsel to private companies and public institutions on corporate, corporate, commercial, intellectual property, labor compliance and the implementation of corporate criminal liability compliance models.
             </span>
           </div>
-          <div className="h-full w-ful lg:mt-20 flex flex-col items-center lg:flex lg:w-1/2 p-8 lg:p-16">
+          <div className="h-full w-ful flex flex-col items-center lg:flex lg:w-1/2 p-0 xs:p-4 md:p-8 lg:p-16">
             <img src='/assets/datacompliance2.webp' style={{maxHeight: "142px"}}></img>
             <a href="https://f6a8b3ba-531b-490b-991f-49e67bed964d.filesusr.com/ugd/704d50_d7f9f643eefe430a88a5d6e20b96e0d3.pdf" target="_blank" className="w-full">
               <button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded w-full my-8">
-              Download brochure (ES)
+                <span className="text-xs xs:text-base lg:text-lg">
+                  Download brochure (ES)
+                </span> 
               </button>
             </a>  
             <span className="text-black">
@@ -101,7 +107,9 @@ const EnglishIndex = () => (
             </span>
             <a href="https://www.datacompliance.legal" target="_blank" className="w-full">
               <button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded w-full my-8">
-                https://www.datacompliance.legal
+                <span className="text-xs xs:text-base lg:text-lg">
+                  https://www.datacompliance.legal
+                </span> 
               </button>
             </a>  
           </div>
@@ -110,7 +118,7 @@ const EnglishIndex = () => (
 
       <div id="methodology" className="bg-white lg:h-screen flex z-0 flex-col pt-8 lg:pt-12 overflowhidden" style={{minHeight: "700px"}}>
         <div className="w-full h-12 flex items-center justify-center" style={{backgroundColor: "rgb(140, 172, 204)"}}>
-          <span className="text-white text-2xl font-semibold">
+        <span className="text-white text-lg md:text-2xl lg:text-3xl font-semibold">
             OUR METHODOLOGY
           </span>
         </div>
@@ -168,16 +176,16 @@ const EnglishIndex = () => (
         </div>
         <div className="h-full flex z-0 flex-col lg:flex-row pb-16">
           <div className="h-full w-full flex flex-col items-center justify-center lg:w-2/5 mt-8 lg:mt-16 lg:justify-start">
-            <img src='/assets/TLALogoBlanco.webp' className=""></img>
+            <img src='/assets/TLALogoBlanco.webp' className="w-5/6 xs:w-auto"></img>
           </div>
           <div className="h-full w-full flex flex-col items-center justify-center lg:w-3/5 p-4 lg:items-start mt-8 lg:mt-0">
             <span className="text-white">
             ADDRESS <br/>
-            <a href="https://goo.gl/maps/XE3DyoWyxU7icoDUA" target="_blank" className="underline">Carlos Antúnez 2025 Of. 802, Providencia</a>
+            <a href="https://goo.gl/maps/XE3DyoWyxU7icoDUA" target="_blank" className="underline text-white">Carlos Antúnez 2025 Of. 802, Providencia</a>
             <br/>
             <br/>
             EMAIL <br/>
-            <a href="mailto:info@thelegalagile.com" target="_blank" className="underline">info@thelegalagile.com</a>
+            <a href="mailto:info@thelegalagile.com" target="_blank" className="underline text-white">info@thelegalagile.com</a>
             </span>
             <br/>
             <br/>

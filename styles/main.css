@@ -12,3 +12,7 @@
 span {
     font-family: 'gotham', sans-serif;
 }
+
+div.ant-dropdown.ant-dropdown-placement-bottomLeft {
+    position: fixed
+}

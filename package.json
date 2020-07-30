@@ -9,6 +9,7 @@
     "export": "yarn run build && next export"
   },
   "dependencies": {
+    "antd": "^4.5.1",
     "next": "latest",
     "node-sass": "^4.14.1",
     "postcss-preset-env": "^6.7.0",
