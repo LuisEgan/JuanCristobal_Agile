@@ -189,6 +189,10 @@ const SpanishIndex = () => (
             <br/>
             CORREO ELECTRÓNICO <br/>
             <a href="mailto:info@thelegalagile.com" target="_blank" className="underline text-white">info@thelegalagile.com</a>
+            <br/>
+            <br/>
+            LINKEDIN <br/>
+            <a href="https://www.linkedin.com/in/juancristobalpalma/" target="_blank" className="underline text-white">https://www.linkedin.com/in/juancristobalpalma/</a>
             </span>
             <br/>
             <br/>
