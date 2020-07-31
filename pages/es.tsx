@@ -67,7 +67,9 @@ const SpanishIndex = () => (
           <br/>
           <br/>
           <span className="text-white underline">
-          <a href="mailto:jcpalma@thelegalagile.com" target="_blank">jcpalma@thelegalagile.com</a>
+          <a href="mailto:jcpalma@thelegalagile.com" target="_blank" className="text-white">jcpalma@thelegalagile.com</a>
+          <br/>
+          <a href="https://www.linkedin.com/in/juancristobalpalma/" target="_blank" className="text-white">https://www.linkedin.com/in/juancristobalpalma/</a>
           </span>
         </div>
       </div>
